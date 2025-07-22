@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",                 
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -31,8 +31,5 @@
     "tailwindcss": "^4.1.11",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  },
-  "resolutions": {
-    "lightningcss": "1.23.0"
   }
 }
